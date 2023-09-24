@@ -1,0 +1,90 @@
+{
+  "name": "geo_find_button",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "jzuwoTvIOeRK3P1G8NpduC",
+    "node": "829:2774",
+    "version": "4057146762",
+    "component-id": "3a6aea002aa4066e76e4f22f0ba429363784ed9d"
+  },
+  "default": "GeoFindButton",
+  "documentation": "s",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "buttonText"
+      }
+    ],
+    "modes": {
+      "GeoFindButton": {
+        "rules": [
+          {
+            "id": "top_level",
+            "opacity": "0.699999988079071",
+            "border-radius": "20.0",
+            "arrangement": "row",
+            "children": [
+              "buttonText"
+            ]
+          },
+          {
+            "id": "buttonText",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "240.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$label",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.14990234375",
+            "typeface": "Times New Roman"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "label": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "GeoFindButton",
+      "size": {
+        "width": 308.0,
+        "height": 78.0
+      },
+      "parameters": {
+        "label": "Поиск ближайших площадок для игры в гольф"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

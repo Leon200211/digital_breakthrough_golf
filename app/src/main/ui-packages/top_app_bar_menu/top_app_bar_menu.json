@@ -1,0 +1,112 @@
+{
+  "name": "top_app_bar_menu",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "jzuwoTvIOeRK3P1G8NpduC",
+    "node": "828:1629",
+    "version": "4057146762",
+    "component-id": "ef276fd61adede8d8fc24d0debb9c0213472da6e"
+  },
+  "default": "TopAppBarMenu",
+  "documentation": "ADAS",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "TitleText"
+      }
+    ],
+    "modes": {
+      "TopAppBarMenu": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "36.0",
+              "top": "25.0",
+              "right": "36.0",
+              "bottom": "25.0"
+            },
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": "1.0",
+            "arrangement": "row",
+            "children": [
+              "TitleText"
+            ],
+            "item-spacing": "65.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "126.0",
+              "saturation": "0.32608695652173914",
+              "value": "0.3607843137254902"
+            }
+          },
+          {
+            "id": "TitleText",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$label",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "text-size": "20.0",
+            "line-height": "1.2744140625",
+            "typeface": "Abel"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "label": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "TopAppBarMenu",
+      "size": {
+        "width": 360.0,
+        "height": 75.0
+      },
+      "parameters": {
+        "label": "МЕНЮ"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
